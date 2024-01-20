@@ -1,0 +1,87 @@
+.main {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  letter-spacing: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#logo {
+  width: 15vh;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 27px;
+}
+.blue-text {
+  color: rgb(14, 98, 183);
+}
+.blue-bg {
+  background-color: rgb(14, 98, 183);
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+}
+.button-section {
+  margin: 10px;
+  width: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+td {
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(14, 98, 183);
+  color: white;
+  line-height: 25px;
+  font-size: large;
+}
+td span {
+  display: block;
+  font-weight: bolder;
+}
+tr,
+td {
+  border-bottom: 1px solid white;
+}
+td:first-child {
+  border-radius: 20px 0 0 20px;
+}
+td:last-child {
+  border-radius: 0 20px 20px 0;
+}
+#search {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(216, 213, 213);
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+}
+button:hover {
+  background-color: rgb(51, 135, 219);
+}
+table tr:hover td {
+  background-color: rgb(30, 65, 101);
+}
+
+@media only screen and (min-width: 600px) and (max-width: 920px) {
+  /* For tablets: */
+  .main {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 599px) {
+  /* For mobile phones: */
+  .main {
+    width: fit-content;
+  }
+}
